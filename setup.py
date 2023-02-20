@@ -12,7 +12,7 @@ MAINTAINER_EMAIL = 'demian@bwh.harvard.edu'
 URL = 'http://demianw.github.io/tract_querier'
 LICENSE = open('license.rst').read()
 DOWNLOAD_URL = 'https://github.com/demianw/tract_querier'
-VERSION = '0.1'
+VERSION = '0.2'
 
 
 def configuration(parent_package='', top_path=None):
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         long_description=LONG_DESCRIPTION,
         requires=[
             'numpy(>=1.6)',
-            'nibabel(>=1.3)'
+            'nibabel(==3.2.2)'
         ],
         classifiers=[
             'Intended Audience :: Science/Research',
