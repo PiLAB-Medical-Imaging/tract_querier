@@ -36,7 +36,7 @@ if __name__ == "__main__":
         long_description=LONG_DESCRIPTION,
         requires=[
             'numpy(>=1.6)',
-            'nibabel(==3.2.2)'
+            'nibabel(==3.1.1)'
         ],
         classifiers=[
             'Intended Audience :: Science/Research',
